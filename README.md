@@ -1,4 +1,4 @@
-# MyCurrency
+# MyCurrency — Beta
 
 A minimal macOS menu bar currency converter for **EUR, USD, and AED** — live rates, instant conversion in all directions.
 

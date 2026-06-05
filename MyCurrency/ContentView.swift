@@ -32,8 +32,16 @@ struct ContentView: View {
     private var header: some View {
         HStack(alignment: .center) {
             VStack(alignment: .leading, spacing: 3) {
-                Text("MyCurrency")
-                    .font(.system(size: 20, weight: .bold, design: .rounded))
+                HStack(alignment: .firstTextBaseline, spacing: 7) {
+                    Text("MyCurrency")
+                        .font(.system(size: 20, weight: .bold, design: .rounded))
+                    Text("BETA")
+                        .font(.system(size: 9, weight: .bold, design: .rounded))
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 5)
+                        .padding(.vertical, 2)
+                        .background(Color.accentColor, in: RoundedRectangle(cornerRadius: 4))
+                }
                 Text(vm.lastUpdatedLabel)
                     .font(.system(size: 11, weight: .medium))
                     .foregroundStyle(.secondary)

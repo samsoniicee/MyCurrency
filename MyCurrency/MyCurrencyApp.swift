@@ -8,7 +8,7 @@ struct MyCurrencyApp: App {
         MenuBarExtra {
             ContentView()
         } label: {
-            Label("MyCurrency", systemImage: "dollarsign.circle.fill")
+            Label("MyCurrency Beta", systemImage: "dollarsign.circle.fill")
         }
         .menuBarExtraStyle(.window)
     }
